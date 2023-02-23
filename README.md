@@ -12,9 +12,12 @@ Given , determine the number of words in .
 
 **Example**
 
----
-**_Sample Input_:** saveChangesInTheEditor\
-**_Sample Output_:** 5\
+**_Sample Input_:** 
+> saveChangesInTheEditor
+
+**_Sample Output_:** 
+> 5
+> 
 **_Explanation_:** String  contains five words:
 
 1. save
@@ -22,3 +25,27 @@ Given , determine the number of words in .
 3. In
 4. The
 5. Editor
+---
+
+### 2. Exercise
+
+---
+
+In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
+
+NOTE: String letters are case-sensitive.
+
+**Input Format** \
+The first line of input contains the original string. The next line contains the substring.
+
+**Output Format**\
+Output the integer number indicating the total number of occurrences of the substring in the original string.
+
+**Example**
+
+**Sample Input**
+> ABCDCDC\
+CDC
+
+**Sample Output**
+> 2
