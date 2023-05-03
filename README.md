@@ -118,6 +118,32 @@ A single string  that represents a time in -hour clock format (i.e.: hh:mm:ssAM 
 
 **Sample Input**
 > 07:05:45PM
-
+sd
 **Sample Output**
 > 19:05:45
+
+
+---
+### 5. Exercise
+
+---
+You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, alison heck should be capitalised correctly as Alison Heck.
+
+
+Given a full name, your task is to capitalize the name appropriately.
+
+**Input Format**
+
+- A single line of input containing the full name, S.
+
+**Note**: in a word only the first character is capitalized. Example 12abc when capitalized remains 12abc.
+
+**Output Format**
+- Print the capitalized string, S.
+
+**Sample Input** 
+> hello world 
+
+**Sample Output**
+> Hello World
+
